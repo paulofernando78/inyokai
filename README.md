@@ -1,1 +1,2 @@
-# inyokai
+# Instituto Inyokai
+Bahia - Brasil
