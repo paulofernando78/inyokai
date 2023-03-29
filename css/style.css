@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-font: 'Kanit', sans-serif;
+    --seconday-font: 'Merienda', cursive;
+
+}
+
+body {
+    font-family: var(--primary-font)
+}
+
+/* #header {
+    display: flex;
+    flex-direction: column;
+} */
+
+#menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 2em;
+    background-color: gray;
+    height: 5vh;
+    align-items: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(219, 165, 165);
+}
+
+.goshin {
+    margin-top: 18px;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
