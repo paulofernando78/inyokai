@@ -59,6 +59,11 @@ h3 {
 
 }
 
+p {
+    margin: 23px;
+    text-align: justify;
+}
+
 @media (min-width: 768px) {
     .goshin {
         width: 75%;
