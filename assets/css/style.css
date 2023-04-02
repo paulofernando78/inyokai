@@ -39,7 +39,7 @@ body {
     display: block;
     margin: auto;
     width: 80%;
-    margin: auto;
+    margin-bottom: 30px;
 }
 
 /* h1 {
@@ -56,33 +56,24 @@ p {
     height: 500px;
 }
 
+.links ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 1.5em;
+    height: 6vh;
+    align-items: center;
+}
 
+.links img {
+    width: 30PX;
+}
 
 @media (min-width: 768px) {
     
     .logo-instituto {
         width: 40%;
     }
-}
-
-footer {
-    background-color: #334;
-}
-
-.links ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    gap: 2em;
-    background-color: #334;
-    height: 6vh;
-    align-items: center;
-    margin-top: 30px;
-}
-
-.links img {
-    width: 25PX;
-    filter: invert();
 }
 
 @media (min-width: 1024px) {
