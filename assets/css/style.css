@@ -69,6 +69,12 @@ p {
     width: 30PX;
 }
 
+#p-rodapé {
+    margin: 30px;
+    font-size: 11px;
+    text-align: center;
+}
+
 @media (min-width: 768px) {
     
     .logo-instituto {
